@@ -6,7 +6,7 @@ Es una aplicación que te permite tener tu propia lista de tareas y operar con e
 Las tareas se guardan en un archivo JSON, por lo que se guardan después de cerrar el programa.
 
 ![TODO]
-(https://imgur.com/a/YqTXTx5)
+(https://i.imgur.com/uZb6zTj.png)
 
 ## Instalación
 Dentro de la carpeta del proyecto, instalar dependencias:
@@ -58,7 +58,7 @@ node app borrar -d
 
 ## Argumentos
 
-### -descrpcion
+### -descripcion
 Especifica el nombre de la tarea
 
 Alias: `-d`
