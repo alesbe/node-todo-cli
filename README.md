@@ -5,8 +5,7 @@ Es una aplicación que te permite tener tu propia lista de tareas y operar con e
 
 Las tareas se guardan en un archivo JSON, por lo que se guardan después de cerrar el programa.
 
-![TODO]
-(https://i.imgur.com/uZb6zTj.png)
+![TODO](https://i.imgur.com/uZb6zTj.png)
 
 ## Instalación
 Dentro de la carpeta del proyecto, instalar dependencias:
