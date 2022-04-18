@@ -1,68 +1,64 @@
-# NodeJS CLI TO-DO list
-Esta aplicación ha sido creada con fines prácticos en la realización de un curso de NodeJS.
-
-Es una aplicación que te permite tener tu propia lista de tareas y operar con ella.
-
-Las tareas se guardan en un archivo JSON, por lo que se guardan después de cerrar el programa.
+# NodeJS CLI TODO list
+TODO list made with NodeJS in a console user interface.
 
 ![TODO](https://i.imgur.com/uZb6zTj.png)
 
-## Instalación
-Dentro de la carpeta del proyecto, instalar dependencias:
+## Install
+Inside project folder, install dependencies:
 
 ```
 npm install
 ```
 
-## Uso
+## Usage
 ```
-node app [comando] [argumentos]
+node app [command] [arguments]
 ```
 
-## Comandos
+## Commands
 
 ### help
-Muestra la ayuda de la aplicación.
+Shows command help
 
 ```
 node app help
 ```
 
 ### crear
-Crea una nueva tarea.
+Creates a new task
 
 ```
 node app crear -d
 ```
 ### actualizar
-Actualiza el estado de una tarea.
+Update the state of a task
 
 ```
 node app actualizar -d [-c = true]
 ```
 
 ### listar
-Muestra la lista de tareas.
+Shows task list
 
 ```
 node app listar
 ```
 
 ### borrar
-Borra una tarea de la lista
+Delete a task from the list
 
 ```
 node app borrar -d
 ```
 
-## Argumentos
+## Arguments
 
 ### -descripcion
-Especifica el nombre de la tarea
+Specifies the description of a task
 
 Alias: `-d`
 
 ### -completado
-Especifica el estado de la tarea
+Specifies the state of the task
 
 Alias: `-c`
